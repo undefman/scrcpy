@@ -1,0 +1,83 @@
+Build started at 2018-09-23T11:59:54.148911
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.48.0
+Source dir: /home/undefman/Downloads/scrcpy
+Build dir: /home/undefman/Downloads/scrcpy/out
+Build type: native build
+Project name: scrcpy
+Project version: undefined
+Sanity testing C compiler: ccache cc
+Is cross compiler: False.
+Sanity check compiler command line: ccache cc /home/undefman/Downloads/scrcpy/out/meson-private/sanitycheckc.c -o /home/undefman/Downloads/scrcpy/out/meson-private/sanitycheckc.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/undefman/Downloads/scrcpy/out/meson-private/sanitycheckc.exe
+Native C compiler: ccache cc (gcc 7.3.0 "cc (Ubuntu 7.3.0-23ubuntu2~16.04.york0) 7.3.0")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'libavformat' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion libavformat` -> 0
+56.40.101
+Called `/usr/bin/pkg-config --cflags libavformat` -> 0
+-I/usr/include/x86_64-linux-gnu
+Called `/usr/bin/pkg-config libavformat --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lavformat-ffmpeg
+Called `/usr/bin/pkg-config libavformat --libs` -> 0
+-lavformat-ffmpeg
+Running compile:
+Working directory:  /tmp/tmpgufm5wb2
+Command line:  ccache cc /tmp/tmpgufm5wb2/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpgufm5wb2/output.obj -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/7/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/7/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/7/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Dependency libavformat found: YES 56.40.101
+Determining dependency 'libavcodec' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion libavcodec` -> 0
+56.60.100
+Called `/usr/bin/pkg-config --cflags libavcodec` -> 0
+-I/usr/include/x86_64-linux-gnu
+Called `/usr/bin/pkg-config libavcodec --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lavcodec-ffmpeg
+Called `/usr/bin/pkg-config libavcodec --libs` -> 0
+-lavcodec-ffmpeg
+Dependency libavcodec found: YES 56.60.100
+Determining dependency 'libavutil' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion libavutil` -> 0
+54.31.100
+Called `/usr/bin/pkg-config --cflags libavutil` -> 0
+-I/usr/include/x86_64-linux-gnu
+Called `/usr/bin/pkg-config libavutil --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lavutil-ffmpeg
+Called `/usr/bin/pkg-config libavutil --libs` -> 0
+-lavutil-ffmpeg
+Dependency libavutil found: YES 54.31.100
+Determining dependency 'sdl2' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion sdl2` -> 0
+2.0.4
+Called `/usr/bin/pkg-config --cflags sdl2` -> 0
+-D_REENTRANT -I/usr/include/SDL2
+Called `/usr/bin/pkg-config sdl2 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lSDL2
+Called `/usr/bin/pkg-config sdl2 --libs` -> 0
+-lSDL2
+Dependency sdl2 found: YES 2.0.4
+Configuring config.h using configuration
+Adding test "test_control_event_queue"
+Adding test "test_control_event_serialize"
+Adding test "test_strutil"
+Build targets in project: 6
+Found ninja-1.5.1 at /usr/bin/ninja

@@ -14,5 +14,8 @@ SDL_bool device_read_info(socket_t device_socket, char *device_name, struct size
     strcpy(device_name, (char *) buf);
     size->width = (buf[DEVICE_NAME_FIELD_LENGTH] << 8) | buf[DEVICE_NAME_FIELD_LENGTH + 1];
     size->height = (buf[DEVICE_NAME_FIELD_LENGTH + 2] << 8) | buf[DEVICE_NAME_FIELD_LENGTH + 3];
+
+    
+
     return SDL_TRUE;
 }

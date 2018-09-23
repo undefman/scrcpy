@@ -1,0 +1,132 @@
+[
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_main.c.o' -MF 'app/app@@scrcpy@exe/src_main.c.o.d' -o 'app/app@@scrcpy@exe/src_main.c.o' -c ../app/src/main.c",
+    "file": "../app/src/main.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_command.c.o' -MF 'app/app@@scrcpy@exe/src_command.c.o.d' -o 'app/app@@scrcpy@exe/src_command.c.o' -c ../app/src/command.c",
+    "file": "../app/src/command.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_controlevent.c.o' -MF 'app/app@@scrcpy@exe/src_controlevent.c.o.d' -o 'app/app@@scrcpy@exe/src_controlevent.c.o' -c ../app/src/controlevent.c",
+    "file": "../app/src/controlevent.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_controller.c.o' -MF 'app/app@@scrcpy@exe/src_controller.c.o.d' -o 'app/app@@scrcpy@exe/src_controller.c.o' -c ../app/src/controller.c",
+    "file": "../app/src/controller.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_convert.c.o' -MF 'app/app@@scrcpy@exe/src_convert.c.o.d' -o 'app/app@@scrcpy@exe/src_convert.c.o' -c ../app/src/convert.c",
+    "file": "../app/src/convert.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_decoder.c.o' -MF 'app/app@@scrcpy@exe/src_decoder.c.o.d' -o 'app/app@@scrcpy@exe/src_decoder.c.o' -c ../app/src/decoder.c",
+    "file": "../app/src/decoder.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_device.c.o' -MF 'app/app@@scrcpy@exe/src_device.c.o.d' -o 'app/app@@scrcpy@exe/src_device.c.o' -c ../app/src/device.c",
+    "file": "../app/src/device.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_fpscounter.c.o' -MF 'app/app@@scrcpy@exe/src_fpscounter.c.o.d' -o 'app/app@@scrcpy@exe/src_fpscounter.c.o' -c ../app/src/fpscounter.c",
+    "file": "../app/src/fpscounter.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_frames.c.o' -MF 'app/app@@scrcpy@exe/src_frames.c.o.d' -o 'app/app@@scrcpy@exe/src_frames.c.o' -c ../app/src/frames.c",
+    "file": "../app/src/frames.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_inputmanager.c.o' -MF 'app/app@@scrcpy@exe/src_inputmanager.c.o.d' -o 'app/app@@scrcpy@exe/src_inputmanager.c.o' -c ../app/src/inputmanager.c",
+    "file": "../app/src/inputmanager.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_installer.c.o' -MF 'app/app@@scrcpy@exe/src_installer.c.o.d' -o 'app/app@@scrcpy@exe/src_installer.c.o' -c ../app/src/installer.c",
+    "file": "../app/src/installer.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_lockutil.c.o' -MF 'app/app@@scrcpy@exe/src_lockutil.c.o.d' -o 'app/app@@scrcpy@exe/src_lockutil.c.o' -c ../app/src/lockutil.c",
+    "file": "../app/src/lockutil.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_net.c.o' -MF 'app/app@@scrcpy@exe/src_net.c.o.d' -o 'app/app@@scrcpy@exe/src_net.c.o' -c ../app/src/net.c",
+    "file": "../app/src/net.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_scrcpy.c.o' -MF 'app/app@@scrcpy@exe/src_scrcpy.c.o.d' -o 'app/app@@scrcpy@exe/src_scrcpy.c.o' -c ../app/src/scrcpy.c",
+    "file": "../app/src/scrcpy.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_screen.c.o' -MF 'app/app@@scrcpy@exe/src_screen.c.o.d' -o 'app/app@@scrcpy@exe/src_screen.c.o' -c ../app/src/screen.c",
+    "file": "../app/src/screen.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_server.c.o' -MF 'app/app@@scrcpy@exe/src_server.c.o.d' -o 'app/app@@scrcpy@exe/src_server.c.o' -c ../app/src/server.c",
+    "file": "../app/src/server.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_strutil.c.o' -MF 'app/app@@scrcpy@exe/src_strutil.c.o.d' -o 'app/app@@scrcpy@exe/src_strutil.c.o' -c ../app/src/strutil.c",
+    "file": "../app/src/strutil.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_tinyxpm.c.o' -MF 'app/app@@scrcpy@exe/src_tinyxpm.c.o.d' -o 'app/app@@scrcpy@exe/src_tinyxpm.c.o' -c ../app/src/tinyxpm.c",
+    "file": "../app/src/tinyxpm.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_sys_unix_command.c.o' -MF 'app/app@@scrcpy@exe/src_sys_unix_command.c.o.d' -o 'app/app@@scrcpy@exe/src_sys_unix_command.c.o' -c ../app/src/sys/unix/command.c",
+    "file": "../app/src/sys/unix/command.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@scrcpy@exe/src_sys_unix_net.c.o' -MF 'app/app@@scrcpy@exe/src_sys_unix_net.c.o.d' -o 'app/app@@scrcpy@exe/src_sys_unix_net.c.o' -c ../app/src/sys/unix/net.c",
+    "file": "../app/src/sys/unix/net.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@test_control_event_queue@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@test_control_event_queue@exe/tests_test_control_event_queue.c.o' -MF 'app/app@@test_control_event_queue@exe/tests_test_control_event_queue.c.o.d' -o 'app/app@@test_control_event_queue@exe/tests_test_control_event_queue.c.o' -c ../app/tests/test_control_event_queue.c",
+    "file": "../app/tests/test_control_event_queue.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@test_control_event_queue@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@test_control_event_queue@exe/src_controlevent.c.o' -MF 'app/app@@test_control_event_queue@exe/src_controlevent.c.o.d' -o 'app/app@@test_control_event_queue@exe/src_controlevent.c.o' -c ../app/src/controlevent.c",
+    "file": "../app/src/controlevent.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@test_control_event_serialize@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@test_control_event_serialize@exe/tests_test_control_event_serialize.c.o' -MF 'app/app@@test_control_event_serialize@exe/tests_test_control_event_serialize.c.o.d' -o 'app/app@@test_control_event_serialize@exe/tests_test_control_event_serialize.c.o' -c ../app/tests/test_control_event_serialize.c",
+    "file": "../app/tests/test_control_event_serialize.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@test_control_event_serialize@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@test_control_event_serialize@exe/src_controlevent.c.o' -MF 'app/app@@test_control_event_serialize@exe/src_controlevent.c.o.d' -o 'app/app@@test_control_event_serialize@exe/src_controlevent.c.o' -c ../app/src/controlevent.c",
+    "file": "../app/src/controlevent.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@test_strutil@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@test_strutil@exe/tests_test_strutil.c.o' -MF 'app/app@@test_strutil@exe/tests_test_strutil.c.o.d' -o 'app/app@@test_strutil@exe/tests_test_strutil.c.o' -c ../app/tests/test_strutil.c",
+    "file": "../app/tests/test_strutil.c"
+  },
+  {
+    "directory": "/home/undefman/Downloads/scrcpy/out",
+    "command": "ccache cc -Iapp/app@@test_strutil@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT  -MD -MQ 'app/app@@test_strutil@exe/src_strutil.c.o' -MF 'app/app@@test_strutil@exe/src_strutil.c.o.d' -o 'app/app@@test_strutil@exe/src_strutil.c.o' -c ../app/src/strutil.c",
+    "file": "../app/src/strutil.c"
+  }
+]
