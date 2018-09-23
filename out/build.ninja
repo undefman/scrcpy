@@ -176,8 +176,8 @@ build app/app@@test_strutil@exe/src_strutil.c.o: c_COMPILER ../app/src/strutil.c
 build app/test_strutil: c_LINKER app/app@@test_strutil@exe/tests_test_strutil.c.o app/app@@test_strutil@exe/src_strutil.c.o | /usr/lib/x86_64-linux-gnu/libavformat-ffmpeg.so /usr/lib/x86_64-linux-gnu/libavcodec-ffmpeg.so /usr/lib/x86_64-linux-gnu/libavutil-ffmpeg.so /usr/lib/x86_64-linux-gnu/libSDL2.so
  LINK_ARGS = -flto -Wl,--no-undefined -Wl,--as-needed -Wl,-O1 -Wl,--start-group /usr/lib/x86_64-linux-gnu/libavformat-ffmpeg.so /usr/lib/x86_64-linux-gnu/libavcodec-ffmpeg.so /usr/lib/x86_64-linux-gnu/libavutil-ffmpeg.so /usr/lib/x86_64-linux-gnu/libSDL2.so -Wl,--end-group
 
-build server/scrcpy-server.jar: CUSTOM_COMMAND ../server/./server/scrcpy-server-v1.3.jar
- COMMAND = cp ../server/./server/scrcpy-server-v1.3.jar server/scrcpy-server.jar
+build server/scrcpy-server.jar: CUSTOM_COMMAND ../server/scrcpy-server-v1.3.jar
+ COMMAND = cp ../server/scrcpy-server-v1.3.jar server/scrcpy-server.jar
  description = Generating$ scrcpy-server-prebuilt$ with$ a$ custom$ command.
 
 build meson-run: CUSTOM_COMMAND 
@@ -222,7 +222,7 @@ build dist: phony meson-dist
 # Suffix
 
 build meson-scan-build: CUSTOM_COMMAND PHONY
- COMMAND = /home/undefman/.local/bin/meson --internal scanbuild /home/undefman/Downloads/scrcpy /home/undefman/Downloads/scrcpy/out /home/undefman/.local/bin/meson -Dbuild_app=true -Dbuild_server=true -Dcrossbuild_windows=false -Dhidpi_support=true -Doverride_server_path= -Dprebuilt_server=./server/scrcpy-server-v1.3.jar -Dskip_frames=true -Dwindows_noconsole=false
+ COMMAND = /home/undefman/.local/bin/meson --internal scanbuild /home/undefman/Downloads/scrcpy /home/undefman/Downloads/scrcpy/out /home/undefman/.local/bin/meson -Dbuild_app=true -Dbuild_server=true -Dcrossbuild_windows=false -Dhidpi_support=true -Doverride_server_path= -Dprebuilt_server=scrcpy-server-v1.3.jar -Dskip_frames=true -Dwindows_noconsole=false
  pool = console
 
 build scan-build: phony meson-scan-build
